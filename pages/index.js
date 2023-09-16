@@ -77,7 +77,7 @@ export default function Home() {
       </Head>
       <main className="flex flex-col bg-gradient-to-br to-black_end from-lightblack via-90% p-5">
         {/* HEADER */}
-        <div className="flex flex-row h-[20vh] p-10">
+        <div className="flex flex-row h-[20vh] p-10 max-sm:justify-center">
           <img src="logo.png" className="w-[260px] h-[53px]" />
         </div>
 
@@ -86,13 +86,13 @@ export default function Home() {
           <div className="flex flex-col items-center w-1/2 max-sm:w-full justify-center">
             <div className="flex flex-col justify-center md:px-8 max-sm:px-5 max-sm:text-center  max-sm:mb-[5vh]">
               <p className="lg:text-4xl text-white font-extrabold mb-[45px] max-sm:text-2xl md:text-3xl">
-                Open Source <span className=" text-purple">Projects</span>
+                Open Source <span className="inline-block animate-bounce text-purple">Projects</span>
               </p>
               <p className="lg:text-3xl text-white font-extrabold mb-[45px] max-sm:text-xl md:text-2xl">
-                Some <span className=" text-purple">info</span> about me{" "}
+                Some <span className="inline-block animate-bounce text-purple">info</span> about me{" "}
               </p>
               <p className="lg:text-2xl text-white font-extrabold max-sm:text-lg md:text-xl">
-                <span className=" text-purple">Contact</span> me
+                <span className=" inline-block animate-bounce text-purple">Contact</span> me
               </p>
             </div>
           </div>
@@ -104,21 +104,21 @@ export default function Home() {
 
         {/* SECOND SECTION */}
         <p className="text-4xl text-center text-white bold mb-[90px] font-extrabold">
-          My open source <span className="text-purple">projects</span> 🔥
+          My open source <span className="text-purple mr-[5px]">projects</span> <span className="inline-block animate-pulse">🔥</span>
         </p>
         <div className="flex flex-row px-8 mb-[250px] max-sm:flex-col">
           <div className="flex flex-col w-1/2 items-center justify-center max-sm:w-full max-sm:mb-[80px]">
-            <div className="flex flex-col font-extrabold text-white text-xl max-w-[350px] justify-center max-sm:items-center">
+            <div className="flex flex-col font-extrabold text-white text-xl max-w-[350px] justify-center max-sm:items-center max-sm:text-lg">
               <p id="redtext">Lifechain.gr</p>
               <p className="max-w-[350px] mb-[25px] max-sm:text-center">
                 The website of the lifechain company is opensource with all the
                 libraries listed in the README
               </p>
-              <div className="flex flex-row items-center mb-[20px]">
+              <div className="flex flex-row items-center mb-[20px] max-sm:text-lg">
                 <img src="click.png" className="w-[32px] h-[32px] mr-[5px]" />
                 <p>Take a look here!</p>
               </div>
-              <div className="flex flex-row items-center">
+              <div className="flex flex-row items-center max-sm:text-lg">
                 <img src="github.png" className="w-[32px] h-[32px] mr-[5px]" />
                 <p>Go to source code here!</p>
               </div>
@@ -139,22 +139,22 @@ export default function Home() {
           <div className="flex flex-col w-1/2 items-center justify-center max-sm:w-full max-sm:mb-[80px]">
             <img
               src="Activ-io.png"
-              className="w-[210px] h-[450px] shadow-2xl shadow-white rounded-xl"
+              className="w-[210px] h-[450px] shadow-2xl shadow-white rounded-3xl"
             />
           </div>
 
           <div className="flex flex-col items-center w-1/2 justify-center max-sm:w-full">
-            <div className="flex flex-col max-w-[350px] font-extrabold text-white text-xl  justify-center items-end max-sm:items-center max-sm:w-full max-sm:mb-[30px]">
+            <div className="flex flex-col max-w-[350px] font-extrabold text-white text-xl max-sm:text-lg justify-center items-end max-sm:items-center max-sm:w-full max-sm:mb-[30px]">
               <p id="purpletext">Activ.io</p>
               <p className="max-w-[350px] mb-[25px] text-end max-sm:text-center">
                 An application build for educational purposes with free Open API
                 to kill bordeness
               </p>
-              <div className="flex flex-row items-center mb-[20px]">
+              <div className="flex flex-row items-center mb-[20px] max-sm:text-lg">
                 <p className="mr-[5px]">Take a look here!</p>
                 <img src="click.png" className="w-[32px] h-[32px]" />
               </div>
-              <div className="flex flex-row items-center">
+              <div className="flex flex-row items-center max-sm:text-lg">
                 <p className="mr-[5px]">Go to source code here!</p>
                 <img src="github.png" className="w-[32px] h-[32px]" />
               </div>
@@ -165,11 +165,11 @@ export default function Home() {
         {/* FOURTH SECTION  */}
         <p className="text-4xl text-center text-white bold mb-[90px] font-extrabold">
           <span className="text-purple">Info</span> and{" "}
-          <span className="text-purple">skills</span> of mine 🧔
+          <span className="text-purple">skills</span> of mine <span className=" inline-block animate-pulse">🧔</span>
         </p>
         <div className="flex flex-row mb-[200px] max-sm:flex-col">
           <div className="flex flex-col w-1/2 items-center justify-center max-sm:w-full max-sm:mb-[80px]">
-            <div className="flex flex-col max-w-[350px] text-xl text-start font-extrabold text-white">
+            <div className="flex flex-col max-w-[350px] text-xl text-start font-extrabold text-white max-sm:text-lg">
               <p id="purpletext" className="text-2xl">
                 Back-end and microservice
               </p>
@@ -193,7 +193,7 @@ export default function Home() {
               className="lg:w-[460px] lg:h-[470px]
               max-sm:w-[300px] max-sm:h-[310px] 
               md:w-[350px] md:h-[360px]
-              shadow-2xl shadow-white rounded-xl"
+              shadow-2xl shadow-white rounded-3xl"
             />
           </div>
         </div>
@@ -205,12 +205,12 @@ export default function Home() {
               className="lg:w-[460px] lg:h-[470px]
               max-sm:w-[300px] max-sm:h-[310px] 
               md:w-[350px] md:h-[360px]
-              shadow-2xl shadow-white rounded-xl"
+              shadow-2xl shadow-white rounded-3xl"
             />
           </div>
 
           <div className="flex flex-col w-1/2 items-center justify-center max-sm:w-full">
-            <div className="flex flex-col max-w-[350px] text-xl  font-extrabold text-white">
+            <div className="flex flex-col max-w-[350px] text-xl  font-extrabold text-white max-sm:text-lg">
               <p id="purpletext" className="text-2xl">
                 Designs for every screen
               </p>
@@ -230,7 +230,7 @@ export default function Home() {
 
         <div className="flex flex-row mb-[200px] max-sm:flex-col">
           <div className="flex flex-col w-1/2 items-center justify-center max-sm:w-full max-sm:mb-[80px]">
-            <div className="flex flex-col max-w-[350px] text-xl text-start font-extrabold text-white">
+            <div className="flex flex-col max-w-[350px] text-xl text-start font-extrabold text-white max-sm:text-lg">
               <p id="purpletext" className="text-2xl">
                 And finally front-end
               </p>
@@ -255,7 +255,7 @@ export default function Home() {
               className="lg:w-[460px] lg:h-[470px]
               max-sm:w-[300px] max-sm:h-[310px] 
               md:w-[350px] md:h-[360px]
-              shadow-2xl shadow-white rounded-xl"
+              shadow-2xl shadow-white rounded-3xl"
             />
           </div>
         </div>
@@ -267,7 +267,7 @@ export default function Home() {
         <p className="text-center text-white text-2xl max-sm:text-lg self-center mt-[20px] mb-[150px] font-extrabold max-w-[900px]">
           I am a University student on Electrical and Computer
           Engineering-University of Peloponnese with a passion for programming
-          and development . I have created many management web-app for companies
+          and development . I have created many management web-apps for companies
           or freelancer’s to keep track with their work,expenses and employees
           as well as their clients and earnings with public websites to promote
           their work. I am familiar with many frameworks libraries such as
@@ -280,7 +280,7 @@ export default function Home() {
         </p>
 
         <p
-          style={{ ["--align"]: "center", marginBottom: "150px" }}
+          style={{ ["--align"]: "center", marginBottom: "100px" }}
           id="purpletext"
         >
           Need my service ?
@@ -404,7 +404,7 @@ export default function Home() {
             <img src="github.png" className="w-[32px] h-[32px]" />
             <img src="instagram.png" className="w-[32px] h-[32px]" />
           </div>
-          <p>All rights reserved lamprosCodes. © 2023</p>
+          <p className=" text-xs">All rights reserved lamprosCodes. © 2023</p>
         </div>
       </main>
     </>

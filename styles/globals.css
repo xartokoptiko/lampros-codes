@@ -129,3 +129,11 @@ body {
   text-align: var(--align);
   margin-bottom: 25px;
 }
+@media (max-width: 640px) {
+  #purpletext {
+    font-size: 30px;
+  }
+  #redtext{
+    font-size: 30px;
+  }
+}
