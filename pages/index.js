@@ -86,13 +86,23 @@ export default function Home() {
           <div className="flex flex-col items-center w-1/2 max-sm:w-full justify-center">
             <div className="flex flex-col justify-center md:px-8 max-sm:px-5 max-sm:text-center  max-sm:mb-[5vh]">
               <p className="lg:text-4xl text-white font-extrabold mb-[45px] max-sm:text-2xl md:text-3xl">
-                Open Source <span className="inline-block animate-bounce text-purple">Projects</span>
+                Open Source{" "}
+                <span className="inline-block animate-bounce text-purple">
+                  Projects
+                </span>
               </p>
               <p className="lg:text-3xl text-white font-extrabold mb-[45px] max-sm:text-xl md:text-2xl">
-                Some <span className="inline-block animate-bounce text-purple">info</span> about me{" "}
+                Some{" "}
+                <span className="inline-block animate-bounce text-purple">
+                  info
+                </span>{" "}
+                about me{" "}
               </p>
               <p className="lg:text-2xl text-white font-extrabold max-sm:text-lg md:text-xl">
-                <span className=" inline-block animate-bounce text-purple">Contact</span> me
+                <span className=" inline-block animate-bounce text-purple">
+                  Contact
+                </span>{" "}
+                me
               </p>
             </div>
           </div>
@@ -104,7 +114,8 @@ export default function Home() {
 
         {/* SECOND SECTION */}
         <p className="text-4xl text-center text-white bold mb-[90px] font-extrabold">
-          My open source <span className="text-purple mr-[5px]">projects</span> <span className="inline-block animate-pulse">🔥</span>
+          My open source <span className="text-purple mr-[5px]">projects</span>{" "}
+          <span className="inline-block animate-pulse">🔥</span>
         </p>
         <div className="flex flex-row px-8 mb-[250px] max-sm:flex-col">
           <div className="flex flex-col w-1/2 items-center justify-center max-sm:w-full max-sm:mb-[80px]">
@@ -116,11 +127,27 @@ export default function Home() {
               </p>
               <div className="flex flex-row items-center mb-[20px] max-sm:text-lg">
                 <img src="click.png" className="w-[32px] h-[32px] mr-[5px]" />
-                <p>Take a look here!</p>
+                <p>
+                  Take a look{" "}
+                  <a
+                    href="https://www.lifechain.gr"
+                    className="font-extrabold text-purple text-xl max-sm:text-lg"
+                  >
+                    here!
+                  </a>
+                </p>
               </div>
               <div className="flex flex-row items-center max-sm:text-lg">
                 <img src="github.png" className="w-[32px] h-[32px] mr-[5px]" />
-                <p>Go to source code here!</p>
+                <p>
+                  Go to source code{" "}
+                  <a
+                    href="https://github.com/xartokoptiko/lifechain-gr"
+                    className="font-extrabold text-purple text-xl max-sm:text-lg"
+                  >
+                    here!
+                  </a>
+                </p>
               </div>
             </div>
           </div>
@@ -150,12 +177,16 @@ export default function Home() {
                 An application build for educational purposes with free Open API
                 to kill bordeness
               </p>
-              <div className="flex flex-row items-center mb-[20px] max-sm:text-lg">
-                <p className="mr-[5px]">Take a look here!</p>
-                <img src="click.png" className="w-[32px] h-[32px]" />
-              </div>
               <div className="flex flex-row items-center max-sm:text-lg">
-                <p className="mr-[5px]">Go to source code here!</p>
+                <p>
+                  Go to source code{" "}
+                  <a
+                    href="https://github.com/xartokoptiko/Activ.io"
+                    className="font-extrabold text-purple text-xl max-sm:text-lg mr-[5px]"
+                  >
+                    here!
+                  </a>
+                </p>
                 <img src="github.png" className="w-[32px] h-[32px]" />
               </div>
             </div>
@@ -165,7 +196,8 @@ export default function Home() {
         {/* FOURTH SECTION  */}
         <p className="text-4xl text-center text-white bold mb-[90px] font-extrabold">
           <span className="text-purple">Info</span> and{" "}
-          <span className="text-purple">skills</span> of mine <span className=" inline-block animate-pulse">🧔</span>
+          <span className="text-purple">skills</span> of mine{" "}
+          <span className=" inline-block animate-pulse">🧔</span>
         </p>
         <div className="flex flex-row mb-[200px] max-sm:flex-col">
           <div className="flex flex-col w-1/2 items-center justify-center max-sm:w-full max-sm:mb-[80px]">
@@ -267,11 +299,11 @@ export default function Home() {
         <p className="text-center text-white text-2xl max-sm:text-lg self-center mt-[20px] mb-[150px] font-extrabold max-w-[900px]">
           I am a University student on Electrical and Computer
           Engineering-University of Peloponnese with a passion for programming
-          and development . I have created many management web-apps for companies
-          or freelancer’s to keep track with their work,expenses and employees
-          as well as their clients and earnings with public websites to promote
-          their work. I am familiar with many frameworks libraries such as
-          Spring-boot/Quarkus with the Kotlin programming language using
+          and development . I have created many management web-apps for
+          companies or freelancer’s to keep track with their work,expenses and
+          employees as well as their clients and earnings with public websites
+          to promote their work. I am familiar with many frameworks libraries
+          such as Spring-boot/Quarkus with the Kotlin programming language using
           PostgreSQL for database and Firebase with MongoDB for the back-end.
           Designing in Figma and bringing it to life with typescript and
           tailwind with the Next.js framework. Recently i decided to create open
@@ -400,9 +432,9 @@ export default function Home() {
           </p>
           <p className="mb-[15px]">Email : lamproskarachristos@yahoo.com</p>
           <div className="flex flex-row w-[150px] justify-between my-[15px]">
-            <img src="linkedin.png" className="w-[32px] h-[32px]" />
-            <img src="github.png" className="w-[32px] h-[32px]" />
-            <img src="instagram.png" className="w-[32px] h-[32px]" />
+            <a href="https://www.linkedin.com/in/lampros-karachristos" ><img src="linkedin.png" className="w-[32px] h-[32px]" /></a>
+            <a href="https://github.com/xartokoptiko"><img src="github.png" className="w-[32px] h-[32px]" /></a>
+            <a href="https://www.instagram.com/lampros.karachristos/"><img src="instagram.png" className="w-[32px] h-[32px]" /></a>
           </div>
           <p className=" text-xs">All rights reserved lamprosCodes. © 2023</p>
         </div>
